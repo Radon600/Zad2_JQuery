@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zadanie 2 - JQuery</title>
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Owl Carousel</h1>
+    <div class="owl-carousel owl-theme">
+        <div class="item"><h4>Content 1</h4></div>
+        <div class="item"><h4>Content 2</h4></div>
+        <div class="item"><h4>Content 3</h4></div>
+        <div class="item"><h4>Content 4</h4></div>
+        <div class="item"><h4>Content 5</h4></div>
+        <div class="item"><h4>Content 6</h4></div>
+        <div class="item"><h4>Content 7</h4></div>
+        <div class="item"><h4>Content 8</h4></div>
+        <div class="item"><h4>Content 9</h4></div>
+        <div class="item"><h4>Content 10</h4></div>
+        <div class="item"><h4>Content 11</h4></div>
+        <div class="item"><h4>Content 12</h4></div>
+    </div>
+    
+<footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script>
+    $(document).ready(function(){
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    items:2,
+    center:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+    
+    });
+    </script>
+</footer>
+</body>
+</html>

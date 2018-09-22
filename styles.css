@@ -1,0 +1,21 @@
+.item{
+    background-color:palevioletred;
+    font-size: 16px;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    height:160px;
+    font-style:normal;
+}
+
+.item h4{
+    color:white;
+    font-weight: 400;
+    padding-top:50px;
+    padding-left:50px;
+    font-size: 30px;
+}
+h1{
+ padding-left:800px;
+ font-style: italic;
+ font-size: 40px;
+ color:grey;
+}
